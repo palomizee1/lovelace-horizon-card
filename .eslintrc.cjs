@@ -42,7 +42,7 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": ["error", { ignoreVoid: true }],
     "@typescript-eslint/no-use-before-define": ["error", { functions: false }],
     "@typescript-eslint/no-throw-literal": "off",
-    "@typescript-eslint/lines-between-class-members": ["error", { exceptAfterSingleLine: true }],
+    "@typescript-eslint/lines-between-class-members": [ "error", "always", { exceptAfterSingleLine: true } ],
     "@typescript-eslint/no-empty-function": ["off"],
     "@typescript-eslint/ban-ts-comment": ["warn"],
     "@typescript-eslint/naming-convention": [
