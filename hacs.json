@@ -1,5 +1,8 @@
 {
-  "name": "Horizon Card - Jorge",
+  "name": "Horizon Card - 1",
   "render_readme": true,
-  "filename": "lovelace-horizon-card.js"
+  "content_in_root": false,
+  "filename": "lovelace-horizon-card.js",
+  "type": "frontend",
+  "chip": false
 }
